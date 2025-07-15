@@ -1,11 +1,11 @@
 # MCP Chat
 
-MCP Chat is a command-line interface application that enables interactive chat capabilities with AI models through the Anthropic API. The application supports document retrieval, command-based prompts, and extensible tool integrations via the MCP (Model Control Protocol) architecture.
+MCP Chat is a command-line interface application that enables interactive chat capabilities with AI models through the AZURE AI SDK. The application supports document retrieval, command-based prompts, and extensible tool integrations via the MCP (Model Control Protocol) architecture.
 
 ## Prerequisites
 
 - Python 3.9+
-- Anthropic API Key
+- Azure Ai SDK (ressource_endpoint, api_key, deployment_name)
 
 ## Setup
 
@@ -13,7 +13,7 @@ MCP Chat is a command-line interface application that enables interactive chat c
 
 
 ```
-2. with Azure AI sdk, define the two three following variables in tour `.env` file and change them in main.py
+1. with Azure AI sdk, define the two three following variables in tour `.env` file and change them in main.py
 ```
 AZURE_ENDPOINT ="https://ressource_name.openai.azure.com/openai/deployments/deployment_name"  #azure ressource endpoint 
 AZURE_API_KEY=""  #azure api_key
